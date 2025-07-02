@@ -14,8 +14,45 @@ html {
   font-family: "Trebuchet MS", sans-serif
 }
 
+header {
+  margin: 32px;
+}
+
+header h1 {
+  font-size: 40px;
+}
+
 img {
   display: block;
   height: auto;
   width: 600px;
+}
+
+/* CLASS Selectors */
+.home {
+  margin: 0 auto;
+}
+
+.home-button {
+  text-decoration: none;
+}
+
+.recipe-nav {
+  margin-top: 8px;
+}
+
+.recipe-item {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.recipe-link {
+  color: black;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.recipe-link:hover {
+  text-decoration: underline;
 }
