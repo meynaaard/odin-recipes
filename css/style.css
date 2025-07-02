@@ -11,30 +11,36 @@
 
 /* TYPE Selectors */
 html {
-  font-family: "Trebuchet MS", sans-serif
+  font-family: "Trebuchet MS", sans-serif;
+  line-height: 27px;
+}
+
+body {
+  padding: 32px;
 }
 
 header {
   margin: 32px;
 }
 
-header h1 {
-  font-size: 40px;
+section {
+  margin-bottom: 40px;
+}
+
+section h2 {
+  font-size: 28px;
+  margin-bottom: 8px;
 }
 
 img {
   display: block;
   height: auto;
-  width: 600px;
+  width: 100%;
 }
 
 /* CLASS Selectors */
 .home {
   margin: 0 auto;
-}
-
-.home-button {
-  text-decoration: none;
 }
 
 .recipe-nav {
@@ -55,4 +61,68 @@ img {
 
 .recipe-link:hover {
   text-decoration: underline;
+}
+
+.home-button {
+  background-color: gold;
+  border-radius: 10px;
+  color: white;
+  display: inline-block;
+  font-size: 18px;
+  margin-bottom: 32px;
+  padding: 15px 25px;
+  text-decoration: none;
+}
+
+.home-button:hover {
+  background-color: goldenrod;
+}
+
+.recipe-container {
+  background-color: whitesmoke;
+  border: 5px double gray;
+  margin: 0 auto;
+  padding: 40px;
+  width: 50%;
+}
+
+.recipe-name {
+  font-size: 40px;
+}
+
+.thumbnail img {
+  margin-bottom: 8px;
+}
+
+.thumbnail h3 {
+  font-weight: 100;
+}
+
+.desc-list,
+.ingr-list {
+  margin-left: 1em;
+}
+
+.recipe-name,
+.ingr-item,
+.steps-item p {
+  margin-bottom: 16px;
+}
+
+.desc-item {
+  list-style-type: circle;
+  margin-bottom: 8px;
+}
+
+.ingr-item::marker,
+.desc-item::marker {
+  color: orange;
+}
+
+.steps-list {
+  list-style-type: none;
+}
+
+.steps-item {
+  margin-bottom: 2rem;
 }
