@@ -10,6 +10,10 @@
 }
 
 /* TYPE Selectors */
+html {
+  font-family: "Trebuchet MS", sans-serif
+}
+
 img {
   display: block;
   height: auto;
