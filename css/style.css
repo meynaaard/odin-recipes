@@ -8,3 +8,10 @@
   margin: 0;
   padding: 0;
 }
+
+/* TYPE Selectors */
+img {
+  display: block;
+  height: auto;
+  width: 600px;
+}
